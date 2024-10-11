@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Table, Button, Label} from "react-bootstrap";
+import { Container, Table, Button} from "react-bootstrap";
 
 export default function DetalhesCandidato(props) {
     const [questao, setQuestao] = useState("");

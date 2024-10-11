@@ -4,7 +4,7 @@ import bootstrap from "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
-        <BrowserRouter basename="/projetoeleicoes2024">
+        <BrowserRouter basename="/CorrecaoProvaLP2-1-bim">
             <Routes>
                 <Route path="/" element={<TelaPrincipal />} />
             </Routes>
